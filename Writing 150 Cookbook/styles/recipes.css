@@ -1,0 +1,86 @@
+body {
+
+}
+h1 {
+    
+}
+a {
+text-decoration: none;
+}
+
+.main {
+    background-color: blue;
+}
+
+.desserts {
+    background-color: red;
+}
+
+.entrees {
+    background-color: green;
+}
+
+.snacks {
+    background-color: yellow;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-row: 1fr 2fr 10fr;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    cursor: finger;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    color: #555;
+}
+
+.recipe {
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+}
