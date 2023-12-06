@@ -1,15 +1,16 @@
-body {
-
-}
-h1 {
-    
-}
 a {
 text-decoration: none;
 }
 
 .main {
-    background-color: blue;
+    background-color: rgb(138, 223, 215);
+
+}
+
+.img{
+    display:block;
+    border: solid 10px darkslategray;
+    margin: auto;
 }
 
 .desserts {
@@ -24,6 +25,8 @@ text-decoration: none;
     background-color: yellow;
 }
 
+
+
 .body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,6 +37,10 @@ text-decoration: none;
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f4;
+}
+
+.desbody {
+    grid-row: 1fr 2fr 10fr 10fr;
 }
 
 .card-container {
@@ -75,12 +82,35 @@ text-decoration: none;
     margin-bottom: 8px;
 }
 
+.title {
+    font-size: 1.2em;
+    margin-bottom: 14px;
+}
+
 .card-description {
     color: #555;
 }
 
-.recipe {
+.mainpage {
     display: grid;
-    grid-row: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+}
+
+.welcome {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.crop {
+    height:"50vh";
+    overflow: hidden;
 }
